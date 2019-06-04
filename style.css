@@ -109,28 +109,25 @@ input{
 #WordGuessGame{
     background-image: url(../bootstrap-portfolio/assets/screenshot.png);
 }
-#wggLink{
-    font-size: 18px;
-}
 
 #PortfolioItemRPG{
     background-image: url(../bootstrap-portfolio/assets/MKscreenshot.png);
 }
 
 #PortfolioItemTriv{
-    background-image: url(../bootstrap-portfolio/assets/TRIVscreenshot.png)
+    background-image: url(../bootstrap-portfolio/assets/TRIVscreenshot.png);
 }
 
-#PortfolioItemProjects{
-    background-image: url(https://hackerstech.online/wp-content/uploads/2019/02/web-dev-15-proj_1200x630-250x250.jpg)
+#PortfolioItemGif{
+    background-image: url(../bootstrap-portfolio/assets/GIFscreenshot.png);
 }
 
-#PortfolioItemModels{
-    background-image: url(https://assets.flatpyramid.com/wp-content/uploads/2018/03/29045313/sci-fi-hotel01-250x250.jpg)
+#PortfolioItemTrain{
+    background-image: url(../bootstrap-portfolio/assets/TRAINscreenshot.png);
 }
 
-#PortfolioItemMusic{
-    background-image: url(http://cdn-metalogo.pearltrees.com/ef/74/ef74e69d7253b29ba7139eb3afbd53e2-pearlsquare.jpg?v=2)
+#PortfolioItemPour{
+    background-image: url(../bootstrap-portfolio/assets/POURscreenshot.png);
 }
 
 .PortfolioItem{
@@ -138,6 +135,9 @@ input{
     bottom: 5px;
     left: 0;
     background-color: rgb(62,62,62);
+    font-size: 18px;
+    border-top: 1px solid rgb(250, 173, 122);
+    border-bottom: 1px solid rgb(250, 173, 122);
     color: azure;
     width: 100%;
     padding: 2px;
