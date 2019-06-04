@@ -1,6 +1,6 @@
 header{
     width: 100%;
-    background-color: rgb(99, 99, 99);
+    background-color: rgb(62, 62, 62);
     border-bottom: 1px solid rgb(250, 173, 122);
     font-family: Georgia, 'Times New Roman', Times, serif;
     position: fixed;
@@ -28,7 +28,7 @@ header{
     margin-right: 30px;
 }
 .navbar{
-    background-color: rgb(99, 99, 99)!important; 
+    background-color: rgb(62, 62, 62)!important; 
 }
 #aboutLink,
 #contactLink,
@@ -47,7 +47,7 @@ header{
 }
 
 body{
-    background-image: url(../bootstrap-portfolio/assets/qbkls.png)
+    background-image: url(../bootstrap-portfolio/assets/wood\ _texture1053.jpg)
 }
 
 #AboutMeContainer{
@@ -60,13 +60,16 @@ body{
 .ContactTitle,
 .PortfolioTitle{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(99, 99, 99);
+    color: rgb(154, 154, 154);
 }
 
 .AboutMePic{
     float: left;
     margin-right: 10px;
     margin-bottom: 10px;
+}
+p{
+    color: white;
 }
 
 #ContactContainer{
@@ -100,18 +103,22 @@ input{
 .col-md-3{
     height: 300px;
     margin: 10px;
+    border: 1px solid rgb(250, 173, 122);
 }
 
-#PortfolioItemGames{
-    background-image: url(https://static.giantbomb.com/uploads/scale_small/0/687/182163-gb_concept_kaiju.png);
+#WordGuessGame{
+    background-image: url(../bootstrap-portfolio/assets/screenshot.png);
+}
+#wggLink{
+    font-size: 18px;
 }
 
-#PortfolioItemDesign{
-    background-image: url(https://4.imimg.com/data4/HX/VR/MY-8728205/web-design-and-development-services-250x250.jpg)
+#PortfolioItemRPG{
+    background-image: url(../bootstrap-portfolio/assets/MKscreenshot.png);
 }
 
-#PortfolioItemApps{
-    background-image: url(https://cacm.acm.org/system/assets/0001/2528/072213_AST_Best-Practices.large.jpg?1476779483&1374523379)
+#PortfolioItemTriv{
+    background-image: url(../bootstrap-portfolio/assets/TRIVscreenshot.png)
 }
 
 #PortfolioItemProjects{
@@ -130,7 +137,7 @@ input{
     position: absolute;
     bottom: 5px;
     left: 0;
-    background-color: rgb(24, 24, 56);
+    background-color: rgb(62,62,62);
     color: azure;
     width: 100%;
     padding: 2px;
@@ -140,7 +147,7 @@ input{
 footer{
     width: 100%;
     height: 50px;
-    background-color: rgb(99, 99, 99);
+    background-color: rgb(62,62,62);
     border-top: 1px solid rgb(250, 173, 122);
     font-family: Georgia, 'Times New Roman', Times, serif;
     position: fixed;
