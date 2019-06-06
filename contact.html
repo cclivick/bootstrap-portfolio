@@ -8,6 +8,7 @@
     <title>Bootstrap-Portfolio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Contrail+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <link rel="stylesheet" type="text/css" href="style.css"/>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -17,7 +18,7 @@
 
 <header>
     <div>
-        <h1 class="Name">Christian Livick</h1>
+        <h1 class="animated fadeInLeft Name">Christian Livick</h1>
     </div>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -29,16 +30,16 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a id="aboutLink" class="nav-link" href="index.html">About</a>
+              <a id="aboutLink" class="animated fadeInDown nav-link" href="index.html">About</a>
             </li>
             <li class="nav-item">
-              <a id="contactLinkCurr" class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+              <a id="contactLinkCurr" class="animated fadeInDown nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a id="portLink" class="nav-link" href="portfolio.html">Portfolio</a>
+                <a id="portLink" class="animated fadeInDown nav-link" href="portfolio.html">Portfolio</a>
               </li>
           </ul>
-          <form class="form-inline my-2 my-lg-0">
+          <form class="animated fadeInRight form-inline my-2 my-lg-0">
             <input id="search" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
             <button id="search" class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
           </form>
@@ -51,19 +52,19 @@
         <div class="container" id="ContactContainer">
                 <div class="row">
                     <div class="col-md-12" id="ContactTitleDiv">
-                        <h1 class="ContactTitle">Contact Me</h1>
+                        <h1 class="animated zoomIn ContactTitle">Contact Me</h1>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12" class="ContactContent">
                             <form action="/action_page.php">
-                                <h6 class="contact">Name</h6>
-                                    <input type="text" name="name" value="John Smith" class="entry"><br><br>
-                                <h6 class="contact">Email</h6>
-                                    <input type="text" name="email" value="example@gmail.com" class="entry"><br><br>
-                                <h6 class="contact">Message</h6>
-                                    <textarea  name="message" class="entry" id="messageBox"></textarea><br><br>
-                                <input type="submit" value="Submit" id="submit" style="height:40px; width:100px">
+                                <h6 class="animated fadeInDown contact" id="contSection">Name</h6>
+                                    <input type="text" name="name" value="John Smith" onfocus="this.value = ''" class="animated fadeInDown entry"><br><br>
+                                <h6 class="animated fadeInDown contact" id="contSection">Email</h6>
+                                    <input type="text" name="email" value="example@gmail.com" onfocus="this.value = ''" class="animated fadeInDown entry"><br><br>
+                                <h6 class="animated fadeInDown contact" id="contSection">Message</h6>
+                                    <textarea  name="message" class="animated fadeInDown entry" id="messageBox"></textarea><br><br>
+                                <input class="animated fadeInDown" type="submit" value="Submit" id="submit" style="height:40px; width:100px">
                         
                         </form>
                     </div>
@@ -77,7 +78,7 @@
 
 <footer>
     <div>
-        <h6 id="copyright">Copyright&copy;</h6>
+        <h6 class="animated zoomIn" id="copyright">Copyright&copy;</h6>
     </div>
 </footer>
 

@@ -1,3 +1,8 @@
+body{
+    background-color: black;
+    background-image: url(../bootstrap-portfolio/assets/wood\ _texture1053.jpg);
+}
+
 header{
     width: 100%;
     background-color: rgb(62, 62, 62);
@@ -46,10 +51,6 @@ header{
     border-color: rgb(68, 236, 68);
 }
 
-body{
-    background-image: url(../bootstrap-portfolio/assets/wood\ _texture1053.jpg)
-}
-
 #AboutMeContainer{
     padding-top: 150px;
     padding-bottom: 150px;
@@ -85,13 +86,25 @@ p{
     color: gray;
 }
 
+#contSection{
+    font-family: 'Contrail One', cursive;
+    color: rgb(68, 236, 68);
+}
+
 input{
     width: 100%;
 }
 
 #messageBox{
     width: 100%;
-    height: 100px;
+    height: 60px;
+}
+
+#submit{
+    border: 2px solid rgb(68, 236, 68);
+    background-color: rgb(62, 62, 62);
+    color: rgb(68, 236, 68);
+    border-radius: 10px;
 }
 
 #PortfolioContainer{

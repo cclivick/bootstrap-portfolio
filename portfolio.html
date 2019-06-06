@@ -8,6 +8,7 @@
     <title>Bootstrap-Portfolio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Contrail+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <link rel="stylesheet" type="text/css" href="style.css"/>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -17,7 +18,7 @@
 
 <header>
     <div>
-        <h1 class="Name">Christian Livick</h1>
+        <h1 class="Name animated fadeInLeft">Christian Livick</h1>
     </div>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -29,16 +30,16 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a id="aboutLink" class="nav-link" href="index.html">About</a>
+              <a id="aboutLink" class="animated fadeInDown nav-link" href="index.html">About</a>
             </li>
             <li class="nav-item">
-              <a id="contactLink" class="nav-link" href="contact.html">Contact</a>
+              <a id="contactLink" class="animated fadeInDown nav-link" href="contact.html">Contact</a>
             </li>
             <li class="nav-item">
-                <a id="portLinkCurr" class="nav-link" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
+                <a id="portLinkCurr" class="animated fadeInDown nav-link" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
               </li>
           </ul>
-          <form class="form-inline my-2 my-lg-0">
+          <form class="animated fadeInRight form-inline my-2 my-lg-0">
             <input id="search" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
             <button id="search" class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
           </form>
@@ -51,11 +52,11 @@
         <div class="container" id="PortfolioContainer">
                 <div class="row">
                     <div class="col-md-12" id="PortfolioTitleDiv">
-                        <h1 class="PortfolioTitle">Portfolio</h1>
+                        <h1 class="animated zoomIn PortfolioTitle">Portfolio</h1>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-3" id="WordGuessGame">
+                    <div class="animated zoomIn col-md-3" id="WordGuessGame">
                         <a href="https://cclivick.github.io/word-guess-game" target="_blank">
                                 <h3 class="PortfolioItem">Horror Icons Word Guess Game</h3>
                             </a>
@@ -63,15 +64,15 @@
                                 <h3 class="githubLink">GitHub Repo</h3>
                             </a>
                         </div>
-                    <div class="col-md-3" id="PortfolioItemRPG">
-                        <a href="https://cclivick.github.io/unit-4-game" target="_blank">
+                    <div class="animated zoomIn col-md-3" id="PortfolioItemRPG">
+                        <a href="https://cclivick.github.io/mkrpg-game" target="_blank">
                                 <h3 class="PortfolioItem">Mortal Kombat Simple RPG</h3>
                             </a>
-                        <a href="https://github.com/cclivick/unit-4-game" target="_blank">
+                        <a href="https://github.com/cclivick/mkrpg-game" target="_blank">
                                 <h3 class="githubLink">GitHub Repo</h3>
                             </a>
                         </div>
-                    <div class="col-md-3" id="PortfolioItemTriv">
+                    <div class="animated zoomIn col-md-3" id="PortfolioItemTriv">
                         <a href="https://cclivick.github.io/trivia-game" target="_blank">
                                 <h3 class="PortfolioItem">Coen Brothers Trivia Game</h3>
                             </a>
@@ -79,7 +80,7 @@
                                 <h3 class="githubLink">GitHub Repo</h3>
                             </a>
                         </div>
-                    <div class="col-md-3" id="PortfolioItemGif">
+                    <div class="animated zoomIn col-md-3" id="PortfolioItemGif">
                         <a href="https://cclivick.github.io/giftastic/" target="_blank">
                                 <h3 class="PortfolioItem">Giphy API Gif Generator</h3>
                             </a>
@@ -87,7 +88,7 @@
                                 <h3 class="githubLink">GitHub Repo</h3>
                             </a>
                         </div>
-                    <div class="col-md-3" id="PortfolioItemTrain">
+                    <div class="animated zoomIn col-md-3" id="PortfolioItemTrain">
                         <a href="https://cclivick.github.io/train-scheduler" target="_blank">
                                 <h3 class="PortfolioItem">Firebase Realtime Train Scheduler</h3>
                             </a>
@@ -95,7 +96,7 @@
                                 <h3 class="githubLink">GitHub Repo</h3>
                             </a>
                         </div>
-                    <div class="col-md-3" id="PortfolioItemPour">
+                    <div class="animated zoomIn col-md-3" id="PortfolioItemPour">
                         <a href="https://johnpgeipel.github.io/Awesome_Project" target="_blank">
                                 <h3 class="PortfolioItem">Beer and Weather Pairing App</h3>
                             </a>
@@ -113,7 +114,7 @@
 
 <footer>
     <div>
-        <h6 id="copyright">Copyright&copy;</h6>
+        <h6 class="animated zoomIn" id="copyright">Copyright&copy;</h6>
     </div>
 </footer>
 
