@@ -146,6 +146,10 @@ input{
     background-image: url(../bootstrap-portfolio/assets/POURscreenshot.png);
 }
 
+#PortfolioItemLIRI{
+    background-image: url(../bootstrap-portfolio/assets/liri1.png);
+}
+
 .PortfolioItem{
     position: absolute;
     bottom: 35px;
