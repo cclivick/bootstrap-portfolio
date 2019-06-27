@@ -1,6 +1,6 @@
 body{
     background-color: black;
-    background-image: url(../bootstrap-portfolio/assets/wood\ _texture1053.jpg);
+    background-image: url(../portfolio/assets/wood\ _texture1053.jpg);
 }
 
 header{
@@ -123,31 +123,31 @@ input{
 }
 
 #WordGuessGame{
-    background-image: url(../bootstrap-portfolio/assets/screenshot.png);
+    background-image: url(../portfolio/assets/screenshot.png);
 }
 
 #PortfolioItemRPG{
-    background-image: url(../bootstrap-portfolio/assets/MKscreenshot.png);
+    background-image: url(../portfolio/assets/MKscreenshot.png);
 }
 
 #PortfolioItemTriv{
-    background-image: url(../bootstrap-portfolio/assets/TRIVscreenshot.png);
+    background-image: url(../portfolio/assets/TRIVscreenshot.png);
 }
 
 #PortfolioItemGif{
-    background-image: url(../bootstrap-portfolio/assets/GIFscreenshot.png);
+    background-image: url(../portfolio/assets/GIFscreenshot.png);
 }
 
 #PortfolioItemTrain{
-    background-image: url(../bootstrap-portfolio/assets/TRAINscreenshot.png);
+    background-image: url(../portfolio/assets/TRAINscreenshot.png);
 }
 
 #PortfolioItemPour{
-    background-image: url(../bootstrap-portfolio/assets/POURscreenshot.png);
+    background-image: url(../portfolio/assets/POURscreenshot.png);
 }
 
 #PortfolioItemLIRI{
-    background-image: url(../bootstrap-portfolio/assets/liri1.png);
+    background-image: url(../portfolio/assets/liri1.png);
 }
 
 .PortfolioItem{
