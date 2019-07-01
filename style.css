@@ -150,6 +150,10 @@ input{
     background-image: url(../portfolio/assets/liri1.png);
 }
 
+#PortfolioItemBam{
+    background-image: url(../portfolio/assets/bamazon.png);
+}
+
 .PortfolioItem{
     position: absolute;
     bottom: 35px;
