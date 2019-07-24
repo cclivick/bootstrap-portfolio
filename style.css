@@ -15,55 +15,76 @@ body{
 }
 #navRow{
     margin-top: 55px;
+    margin-bottom: 25px;
 }
 .navButton{
     width: 100%;
-    height: 110px;
+    height: 150px;
     border-radius: 10px;
     border: 0;
     font-size: 25px;
     font-family: 'Anton', sans-serif;
 }
 #aboutButton{
-    background-color: rgba(44, 0, 0, 0.733);
+    background-color: rgba(1, 33, 80, 0.733);
     color: rgba(240, 255, 255, 0.733);
 }
 #aboutButton:hover{
-    background-color: rgba(100, 2, 2, 0.829);
+    background-color: rgba(192, 124, 47, 0.829);
     color: rgb(252, 252, 252);
     transition: 500ms;
 }
 #contButton{
-    background-color: rgba(0, 44, 11, 0.733);
+    background-color: rgba(1, 33, 80, 0.733);
     color: rgba(240, 255, 255, 0.733);
 }
 #contButton:hover{
-    background-color: rgba(1, 82, 21, 0.829);
+    background-color: rgba(16, 153, 50, 0.829);
     color: rgb(252, 252, 252);
     transition: 500ms;
 }
 #portButton{
-    background-color: rgba(1, 0, 44, 0.733);
+    background-color: rgba(1, 33, 80, 0.733);
     color: rgba(240, 255, 255, 0.733);
 }
 #portButton:hover{
-    background-color: rgba(4, 2, 110, 0.829);
+    background-color: rgba(116, 31, 155, 0.829);
     color: rgb(252, 252, 252);
+    transition: 500ms;
+}
+#resButton{
+    background-color: rgba(240, 255, 255, 0.568);
+    color: rgba(2, 44, 107, 0.733);
+}
+#resButton:hover{
+    background-color: rgba(240, 255, 255, 0.829);
+    color: rgba(2, 44, 107, 0.829);  
     transition: 500ms;
 }
 #mainContainer{
     width: 80%;
-    margin-top: 35px;
+    margin-top: 55px;
+    margin-bottom: 55px;
     padding-top: 120px;
     padding-bottom: 50px;
     z-index: 1;
-    background-color: rgba(5, 22, 19, 0.781);
+    background-color: rgba(41, 20, 51, 0.781);
     border-radius: 10px;
+}
+.AboutMeTitle{
+    font-family: 'Anton', sans-serif;
+    color: azure;
+    text-align: center;
 }
 .AboutMePic{
     float: left;
     margin-right: 10px;
     margin-bottom: 10px;
+    border-radius: 10px;
+}
+#contentDiv{
+    background-color: rgba(0, 0, 0, 0.562);
+    border-radius: 10px;
 }
 p{
     color: white;
@@ -107,12 +128,6 @@ input{
     padding-top: 150px;
     padding-bottom: 150px;
     z-index: 1;
-}
-
-.col-md-3{
-    height: 300px;
-    margin: 10px;
-    border: 1px solid rgb(250, 173, 122);
 }
 
 #WordGuessGame{
