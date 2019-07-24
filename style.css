@@ -1,6 +1,6 @@
 body{
     background-color: black;
-    background-image: url(../portfolio/assets/background.jpg);
+    background-image: url(assets/background.jpg);
 }
 #introMessage,
 #introSubMessage,
@@ -130,35 +130,35 @@ p{
     transition: 300ms;
 }
 #WordGuessGame{
-    background-image: url(../portfolio/assets/screenshot.png);
+    background-image: url(assets/screenshot.png);
 }
 
 #PortfolioItemRPG{
-    background-image: url(../portfolio/assets/MKscreenshot.png);
+    background-image: url(assets/MKscreenshot.png);
 }
 
 #PortfolioItemTriv{
-    background-image: url(../portfolio/assets/TRIVscreenshot.png);
+    background-image: url(assets/TRIVscreenshot.png);
 }
 
 #PortfolioItemGif{
-    background-image: url(../portfolio/assets/GIFscreenshot.png);
+    background-image: url(assets/GIFscreenshot.png);
 }
 
 #PortfolioItemTrain{
-    background-image: url(../portfolio/assets/TRAINscreenshot.png);
+    background-image: url(assets/TRAINscreenshot.png);
 }
 
 #PortfolioItemPour{
-    background-image: url(../portfolio/assets/POURscreenshot.png);
+    background-image: url(assets/POURscreenshot.png);
 }
 
 #PortfolioItemLIRI{
-    background-image: url(../portfolio/assets/liri1.png);
+    background-image: url(assets/liri1.png);
 }
 
 #PortfolioItemBam{
-    background-image: url(../portfolio/assets/bamazon.png);
+    background-image: url(assets/bamazon.png);
 }
 
 
@@ -197,34 +197,4 @@ input{
 }
 
 
-#WordGuessGame{
-    background-image: url(../portfolio/assets/screenshot.png);
-}
 
-#PortfolioItemRPG{
-    background-image: url(../portfolio/assets/MKscreenshot.png);
-}
-
-#PortfolioItemTriv{
-    background-image: url(../portfolio/assets/TRIVscreenshot.png);
-}
-
-#PortfolioItemGif{
-    background-image: url(../portfolio/assets/GIFscreenshot.png);
-}
-
-#PortfolioItemTrain{
-    background-image: url(../portfolio/assets/TRAINscreenshot.png);
-}
-
-#PortfolioItemPour{
-    background-image: url(../portfolio/assets/POURscreenshot.png);
-}
-
-#PortfolioItemLIRI{
-    background-image: url(../portfolio/assets/liri1.png);
-}
-
-#PortfolioItemBam{
-    background-image: url(../portfolio/assets/bamazon.png);
-}
