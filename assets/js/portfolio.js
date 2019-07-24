@@ -12,5 +12,14 @@ var buttonDefault = {"background-color" : "rgba(1, 33, 80, 0.733)", "color" : "r
         $("#aboutButton").css({"background-color" : "rgba(192, 124, 47, 0.829)", "color" : "rgb(252, 252, 252)"});
         $("#links").html("<a href='./assets/Christian Livick - Resume (2019).pdf' id='resumeLink'>Click to see Resume</a>");
         $("#contButton, #portButton").css(buttonDefault);
+    });
+
+    $("#portButton").click(function() {
+        console.log("clicked");
+        $("#contentTitle").html(
+            "<div class='col-md-12' id='AboutMeTitleDiv'><h1 class='animated zoomIn AboutMeTitle'>Portfolio</h1></div>"
+            );
+        $("#content").load(".")
+
     })
 })
