@@ -8,6 +8,7 @@
     <title>Christian Livick</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Contrail+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <link rel="stylesheet" type="text/css" href="style.css"/>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -16,62 +17,48 @@
 
 </head>
 
-<header>
-    <div>
-        <h1 class="animated fadeInLeft Name">Christian Livick</h1>
-    </div>
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#"></a>
-        <button id="collapse" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a id="aboutLinkCurr" class="animated fadeInLeft nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a id="contactLink" class="animated fadeInLeft nav-link" href="contact.html">Contact</a>
-            </li>
-            <li class="nav-item">
-                <a id="portLink" class="animated fadeInLeft nav-link" href="portfolio.html">Portfolio</a>
-              </li>
-          </ul>
-          <form class="animated fadeInRight form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" id="search" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="search">Search</button>
-          </form>
-        </div>
-      </nav>
-
-</header>
-
 <body>
-    <div class="container" id="AboutMeContainer">
+    <div class="container" id="mainContainer">
         <div class="row">
-            <div class="col-md-12" id="AboutMeTitleDiv">
-                <h1 class="animated zoomIn AboutMeTitle">About Me</h1>
-            </div>
+          <h2 id="introMessage">Christian Livick</h2>
         </div>
         <div class="row">
-            <div class="col-md-12" class="AboutMeContent">
-                <img src="../portfolio/assets/headshot.jpg" alt="Christian and his cat, Blue" class="animated fadeInLeft AboutMePic">
-                <p class="animated fadeInRight">My name is Christian Livick. I am 28 years old and currently reside on Milwaukee's east side. For the past 5 years I have been a high school social studies teacher at the Alliance School, which is part of Milwaukee Public Schools. Due to changing interests and life goals, I've recently decided to exit the public sector for a time and focus on in-demand job skills related to web development and web design. <br><br>
-                I have been married to my wife, Samantha, for just over a year and we live together with a fat cat, Blue, and a short dog, Gray. When I am not working my hobbies include going to the movies, going to local metal and punk shows, and lifting weights. I once had aspirations to compete professionally as a mixed martial artist, but gave that up due to injuries and to pursue my education career. I am hoping to one day get back into martial arts, but for the time being, getting set up with a long-term career is my main priority. <br><br>
-                In terms of technical skills, I am more than proficient in several key languages including the core HTML, CSS, and JavaScript. In my current UW-Extension Coding Bootcamp program, I've developed a liking for JavaScript, particularly using jQuery, as well as MySQL and Node. Currently I am working on several command line applications to further my skills with these languages and I'm enjoying every minute of it. My skills are ever-growing and I have a lot of interest in new technologies and development techniques.</p>
+          <h4 id="introSubMessage">Full-Stack Web Developer by Trade</h4>
+        </div>
+        <div class="row">
+          <h5 id="introSubSubMessage">Currently Specializing in JavaScript, jQuery, SQL, and NodeJS</h5>
+        </div>
+        <div class="row" id="navRow">
+          <div class="col-md-3">
+              <button class="navButton" id="aboutButton">Learn About Me</button>
+            </div>
+          <div class="col-md-3">
+              <button class="navButton" id="contButton">Contact Me</button>
+            </div>
+          <div class="col-md-3">
+              <button class="navButton" id="portButton">See My Portfolio</button>
+            </div>
+          <div class="col-md-3">
+              <button class="navButton" id="resButton">
+                  <a href="./assets/Christian Livick - Resume (2019).pdf" target="_blank">See My Resume</a>
+                </button>
             </div>
         </div>
+        <div class="container" id="contentDiv">
+          <div class="row" id="contentTitle">
+
+            </div>
+          <div class="row" id="content">
+
+            </div>
+          </div>
 
     </div>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+crossorigin="anonymous"></script>
+<script src="assets/js/portfolio.js"></script>
     
 </body>
-
-<footer>
-    <div>
-        <h6 class="animated zoomIn" id="copyright">Copyright&copy;</h6>
-    </div>
-</footer>
 
 </html>
