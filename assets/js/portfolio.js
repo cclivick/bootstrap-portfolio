@@ -20,6 +20,12 @@ var buttonDefault = {"background-color" : "rgba(1, 33, 80, 0.733)", "color" : "r
         $("#content").load("assets/html-storage/portfolio.txt");
         $("#portButton").css({"background-color" : "rgba(116, 31, 155, 0.829)", "color" : "rgb(252, 252, 252)"});
         $("#contButton, #aboutButton").css(buttonDefault);
+    });
+
+    $("contButton").click(function() {
+        $("#contentTitle").html(
+            "<div class='col-sm' id='"
+        )
     })
 })
 
