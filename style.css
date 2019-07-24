@@ -9,6 +9,7 @@ body{
     margin-left: auto;
     color: azure;
     font-family: 'Anton', sans-serif;
+    text-align: center;
 }
 #introMessage{
     font-size: 70px;
@@ -22,6 +23,7 @@ body{
     height: 150px;
     border-radius: 10px;
     border: 0;
+    margin-bottom: 10px;
     font-size: 25px;
     font-family: 'Anton', sans-serif;
 }
@@ -83,6 +85,32 @@ body{
     margin-right: 10px;
     margin-bottom: 10px;
     border-radius: 10px;
+}
+@media only screen and (max-width: 550px) {
+    .AboutMePic {
+      float: none;
+    }
+}
+@media only screen and (max-width: 410px) {
+    .AboutMePic {
+      width: 95%;
+      height: auto;
+    }
+}
+@media only screen and (max-width: 340px) {
+    #introMessage {
+      font-size: 48px;
+    }
+}
+@media only screen and (max-width: 340px) {
+    #introSubMessage {
+      font-size: 24px;
+    }
+}
+@media only screen and (max-width: 340px) {
+    #introSubSubMessage {
+      font-size: 18px;
+    }
 }
 #contentDiv{
     background-color: rgba(0, 0, 0, 0.562);
