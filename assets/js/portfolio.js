@@ -17,15 +17,19 @@ var buttonDefault = {"background-color" : "rgba(1, 33, 80, 0.733)", "color" : "r
         $("#contentTitle").html(
             "<div class='col-md-12' id='AboutMeTitleDiv'><h1 class='animated zoomIn AboutMeTitle'>Portfolio</h1></div>"
             );
-        $("#content").load("assets/html-storage/portfolio.txt");
+        $("#content").load("assets/html-storage/portfolio.html");
         $("#portButton").css({"background-color" : "rgba(116, 31, 155, 0.829)", "color" : "rgb(252, 252, 252)"});
         $("#contButton, #aboutButton").css(buttonDefault);
     });
 
-    $("contButton").click(function() {
+    $("#contButton").click(function() {
+        console.log("clicked");
         $("#contentTitle").html(
-            "<div class='col-sm' id='"
-        )
+            "<div class='col-md-12' id='AboutMeTitleDiv'><h1 class='animated zoomIn AboutMeTitle'>Profiles</h1></div>"
+        );
+        $("#content").load("assets/html-storage/contact.html")
+        $("#contButton").css({"background-color" : "rgba(16, 153, 50, 0.829)", "color" : "rgb(252, 252, 252)"});
+        $("#aboutButton, #portButton").css(buttonDefault);
     })
 })
 
