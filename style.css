@@ -189,6 +189,32 @@ p{
     background-image: url(assets/bamazon.png);
 }
 
+#PortfolioItemTeach{
+    background-image: url(assets/TEACHscreenshot.png);
+}
+
+#linkedInLink{
+    background-image: url(assets/linkedinlogo.jpg);
+}
+
+#githubLink{
+    background-image: url(assets/gitlogo.png);
+}
+
+#linkedInLogo,
+#githubLogo{
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.contItem{
+    border-top: 10px;
+    border-bottom: 10px;
+}
 
 #ContactContainer{
     padding-top: 150px;
