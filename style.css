@@ -157,13 +157,6 @@ p{
     color: rgb(62, 62, 62);
     transition: 300ms;
 }
-#WordGuessGame{
-    background-image: url(assets/screenshot.png);
-}
-
-#PortfolioItemRPG{
-    background-image: url(assets/MKscreenshot.png);
-}
 
 #PortfolioItemTriv{
     background-image: url(assets/TRIVscreenshot.png);
@@ -191,6 +184,10 @@ p{
 
 #PortfolioItemTeach{
     background-image: url(assets/TEACHscreenshot.png);
+}
+
+#PortfolioItemTinfoil{
+    background-image: url(assets/TINFOILscreenshot.png);
 }
 
 #linkedInLink{
